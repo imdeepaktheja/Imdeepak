@@ -1,0 +1,10 @@
+Apache webserver guide in ubuntu.
+#sudo su –
+sudo apt update -y
+sudo apt upgrade -y
+sudo apt install openjdk-11-jre -y
+sudo apt install apache2 -y
+chmod -Rf 777 /var/www/html
+Download the static web page from git https://github.com/imdeepaktheja/imdeepak.git
+use winscp to copy the files to /var/www/html
+Hit the ip in the browser>>>>>>>>>>
